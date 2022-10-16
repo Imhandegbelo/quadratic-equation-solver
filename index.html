@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quadratic Eqn Solver</title>
+  <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/myStyles.css">
+</head>
+
+<body class="bg-dark text-white text-center">
+  <div class="container">
+    <h1 class="header">Quadratic Equation Calculator</h1>
+    <br>
+    <div class="row">
+      <div class="col-7 mx-auto">
+        <div class="card text-dark">
+          <div class="card-header bg-grey">
+            <h3 class="text-success">
+              Input your values below:
+            </h3>
+          </div>
+          <div class="card-body">
+            <div class="form-group inline">
+              <label for="a" class="font-30">a</label>
+              <input type="text" name="a" id="a" class="col-2" title="Field cannot be empty" required>,
+              <label for="b" class="font-30">b</label>
+              <input type="text" name="b" id="b" class="col-2"> and
+              <label for="c" class="font-30">c</label>
+              <input type="text" name="c" id="c" class="col-2">
+            </div>
+            <button type="submit" class="btn btn-outline-success" onclick="getValues()" style="margin-bottom: 25px;"
+              id="submit">Calculate</button>
+            <div id="feedback" />
+          </div>
+          <div class="card-footer bg-grey">
+            Remember that a quadratic equation is of the form <em>ax&sup2; + bx + c = 0</em>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    Tiny Project series made by <a href="https://github.com/Imhandegbelo">George Imhandegbelo</a>
+  </div>
+
+</body>
+
+
+<script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="./js/script.js"></script>
+
+</html>
