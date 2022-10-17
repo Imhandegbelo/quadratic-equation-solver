@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live site](https://my-live-site-url.com)
+- Live Site URL: [Live site](https://imhandegbelo.github.io/quadratic-equation-solver/)
 
 ## My process
 
