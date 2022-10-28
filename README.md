@@ -45,6 +45,7 @@ This project - as simple as it may look - was an excellent practice for:
 - Function scope
 - Understanding isNaN
 - Conditionals
+- Error handling
 Overall, I had fun building this tiny project
 
 ## Author
